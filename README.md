@@ -1,23 +1,15 @@
 # Radix2-FFT-Using-DSP48-on-FPGA
 
-## Authors
-- **Nishith** - IMT2022556
-- **Rohit** - IMT2022576
-- **Lokesh** - IMT2022577
-
----
 
 ## Table of Contents
-1. [Problem Statement](#problem-statement)
-2. [Introduction](#introduction)
-3. [Methodology](#methodology)
-   - [Methods Tried](#methods-tried)
-   - [Issues](#issues)
-   - [Final Method Used](#final-method-used)
-4. [Results](#results)
-5. [Visual Aids](#visual-aids)
-6. [Conclusion](#conclusion)
-7. [References](#references)
+
+1. [Overview](#overview)  
+2. [Introduction](#introduction)  
+3. [Methodology](#methodology)  
+   3.1 [Approach – Multiplexing of the DSPs](#approach---multiplexing-of-the-dsps)  
+   3.2 [Implementation Details](#implementation-details)  
+4. [Results](#results)  
+5. [Visual Aids](#visual-aids)  
 
 
 ---
@@ -40,7 +32,7 @@ In this project, we utilized DSP48 IP blocks to handle the multiplication operat
 We can implement the 128-point (N-point) FFT by dividing it into two smaller FFTs of size \( N/2 \), continuing this process recursively until reaching 2-point FFTs. However, this method has significant resource limitations on the Basys3 FPGA due to high DSP usage, making it unsuitable for implementation.
 
 
-### Approach – Multiplexing of the DSPs (Resource Sharing)
+### Approach – Multiplexing of the DSPs
 
 To address the resource limitations, we arrived at a solution to maximize DSP usage in each stage and then reuse them for subsequent stages (multiplexing of DSPs). We identified that an 8-point FFT requires 48 DSPs, making it the largest stage feasible to implement at once on Basys3. Thus, a 16-point FFT can be implemented as two 8-point FFT stages, with their outputs passed through butterfly operations to obtain the final results. Similarly, 32-point, 64-point, and 128-point FFTs can be implemented in this staged manner.
 
