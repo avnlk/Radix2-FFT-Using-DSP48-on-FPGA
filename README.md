@@ -56,10 +56,12 @@ The final implementation of the FFT achieved significant improvement in resource
 Here are some visuals that illustrate our design and results:
 
 - **Block Diagram of FFT Implementation**
- ![WhatsApp Image 2024-11-02 at 22 02 57](https://github.com/user-attachments/assets/0878c9d0-51cc-4512-badf-8150d2512c56)
+ ![](https://github.com/user-attachments/assets/0878c9d0-51cc-4512-badf-8150d2512c56)
 - **Resource Utilization Report**: (Attach a screenshot of resource usage here)
-- ![WhatsApp Image 2024-11-08 at 18 36 14](https://github.com/user-attachments/assets/3239d428-f4bc-4b05-8d87-6b158317a092)
+- ![](https://github.com/user-attachments/assets/3239d428-f4bc-4b05-8d87-6b158317a092)
 - **Timing Analysis Diagram**: (Attach timing analysis or any relevant diagrams here)
+- **Layout Diagram**
+- ![](https://github.com/user-attachments/assets/acc8dd82-0573-4972-89d0-475fc1e6d196)
 
 To add images, you can use:
 ```markdown
