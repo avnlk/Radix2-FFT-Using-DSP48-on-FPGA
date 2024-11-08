@@ -59,8 +59,8 @@ Here are some visuals that illustrate our design and results:
 - **Block Diagram of FFT Implementation**
  ![](https://github.com/user-attachments/assets/0878c9d0-51cc-4512-badf-8150d2512c56)
 - **Resource Utilization Report**: (Attach a screenshot of resource usage here)
-- ![](https://github.com/user-attachments/assets/3239d428-f4bc-4b05-8d87-6b158317a092)
+ ![](https://github.com/user-attachments/assets/3239d428-f4bc-4b05-8d87-6b158317a092)
 - **Timing Analysis Diagram**:
   ![](https://github.com/user-attachments/assets/b466bd3d-d831-48f8-a7cf-602d27ad412f)
 - **Layout Diagram**
-- ![](https://github.com/user-attachments/assets/acc8dd82-0573-4972-89d0-475fc1e6d196)
+ ![](https://github.com/user-attachments/assets/acc8dd82-0573-4972-89d0-475fc1e6d196)
