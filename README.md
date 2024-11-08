@@ -49,7 +49,7 @@ For a 16-point FFT, we divide it into two 8-point FFT stages, but we initiate on
 
 The final implementation of the FFT achieved significant improvement in resource utilization, although it resulted in a reduction in processing speed a bit.
 ![image](https://github.com/user-attachments/assets/25fe8ed6-7985-4774-9116-0a9c96a9ceb1)
-![image](https://github.com/user-attachments/assets/25fe8ed6-7985-4774-9116-0a9c96a9ceb1)
+![image](https://github.com/user-attachments/assets/973ca5f7-6f08-4a3f-960f-71535dc33dad)
 Relative Errors arise due to difference in precision as Python uses Floating Point Precision while here Fixed Q12.6 precision
 ---
 
