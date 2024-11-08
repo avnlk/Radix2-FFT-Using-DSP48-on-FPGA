@@ -1,6 +1,3 @@
-![image](https://github.com/user-attachments/assets/a375d7d9-c000-490d-9773-0a8cb196c50a)# Radix2-FFT-Using-DSP48-on-FPGA
-
-
 ## Table of Contents
 
 1. [Overview](#overview)  
