@@ -1,4 +1,4 @@
-# Radix2-FFT-Using-DSP48-on-FPGA
+![image](https://github.com/user-attachments/assets/a375d7d9-c000-490d-9773-0a8cb196c50a)# Radix2-FFT-Using-DSP48-on-FPGA
 
 
 ## Table of Contents
@@ -49,6 +49,8 @@ For a 16-point FFT, we divide it into two 8-point FFT stages, but we initiate on
 
 The final implementation of the FFT achieved significant improvement in resource utilization, although it resulted in a reduction in processing speed a bit.
 ![image](https://github.com/user-attachments/assets/25fe8ed6-7985-4774-9116-0a9c96a9ceb1)
+![image](https://github.com/user-attachments/assets/25fe8ed6-7985-4774-9116-0a9c96a9ceb1)
+Relative Errors arise due to difference in precision as Python uses Floating Point Precision while here Fixed Q12.6 precision
 ---
 
 ## Visual Aids
@@ -62,7 +64,3 @@ Here are some visuals that illustrate our design and results:
 - **Timing Analysis Diagram**: (Attach timing analysis or any relevant diagrams here)
 - **Layout Diagram**
 - ![](https://github.com/user-attachments/assets/acc8dd82-0573-4972-89d0-475fc1e6d196)
-
-To add images, you can use:
-```markdown
-![Alt text](path_to_image "Optional Title")
