@@ -49,6 +49,7 @@ The final implementation of the FFT achieved significant improvement in resource
 ![image](https://github.com/user-attachments/assets/973ca5f7-6f08-4a3f-960f-71535dc33dad)
 
 Relative Errors arise due to difference in precision as Python uses Floating Point Precision while here Fixed Q12.6 precision
+
 ---
 
 ## Visual Aids
