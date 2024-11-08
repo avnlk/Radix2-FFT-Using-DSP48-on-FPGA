@@ -48,7 +48,7 @@ For a 16-point FFT, we divide it into two 8-point FFT stages, but we initiate on
 ## Results
 
 The final implementation of the FFT achieved significant improvement in resource utilization, although it resulted in a reduction in processing speed a bit.
-
+![image](https://github.com/user-attachments/assets/25fe8ed6-7985-4774-9116-0a9c96a9ceb1)
 ---
 
 ## Visual Aids
