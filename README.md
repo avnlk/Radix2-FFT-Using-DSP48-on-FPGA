@@ -57,7 +57,7 @@ Relative Errors arise due to difference in precision as Python uses Floating Poi
 Here are some visuals that illustrate our design and results:
 
 - **Block Diagram of FFT Implementation**
- ![](https://github.com/user-attachments/assets/0878c9d0-51cc-4512-badf-8150d2512c56)
+ ![](https://github.com/user-attachments/assets/f9f9697b-f8b4-4382-a181-2181a237a219)
 - **Resource Utilization Report**
  ![](https://github.com/user-attachments/assets/3239d428-f4bc-4b05-8d87-6b158317a092)
 - **Timing Analysis Diagram**
